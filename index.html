@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://kit.fontawesome.com/fc1b2206b8.js" crossorigin="anonymous"></script>
     <title>Tea-house</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
@@ -21,30 +22,115 @@
 
 <body>
 
-    <div class="flex mx-auto min-h-[200px] max-w-[1250px] m-[40px]  ">
+    <div class="flex flex-col mx-auto min-h-[200px]  mb-[130px] max-w-[1250px] md:items-center lg:flex-row justify-between">
 
         <div class="">
-            <h1 class="manrope text-[80px] font-bold mb-[30px]">It's good <br>
+            <h1 class="manrope text-[5rem] font-bold mb-[30px]">It's good <br>
                 tea time at The <br>Tea House</h1>
             <p class="manrope text-[18px]  text-[#777777] font-medium mb-[35px]">Tea and Botanical Solutions Supplier Give Optimum <br> Satisfaction To Your Taste
                 Buds.</p>
-            <buttton class="mb-[30px] manrope text-[#ffffff] p-[20px] font-semibold bg-gradient-to-r from-[#ff0000] to-[#ff8938] rounded-lg text-[20px] ">Explore More</buttton>
+            <buttton class="mb-[30px] manrope text-[#ffffff] p-[20px] font-semibold bg-gradient-to-r from-[#ff0000] to-[#ff8938] rounded-lg text-[20px] ">Explore More <span> <i class="fa-solid fa-arrow-right -rotate-45"></i></span></buttton>
+            
         </div>
             
     
-        <div>
-         <img src="images/banner.png" alt="" srcset="" class="absolute top-30 ">
+        <div class="relative ">
+         <img src="images/banner.png" alt="" srcset="" class="relative top-28 -z-10 ">
+
+         <div class="w-[255px] h-[100px] shadow-md flex 
+          justify-evenly items-center bg-[#ffffff] rounded-tr-lg relative left-20">
+            <div>
+                <span class="text-[30px]"> <i class="fa-solid fa-star"></i> </span>
+            </div>
+            <div>
+                 <p class="font-extrabold text-[30px]">5.00</p>
+                 <p class="manrope text-[18px]  text-[#777777] font-medium ">Trust Pilot Ratings</p>
+            </div>
+         </div>
         </div>
 
     </div>
 
-    <main>
+    <div class="mx-auto min-h-[200px] max-w-[1250px] mb-[160px] text-center">
 
-    </main>
+        <div>
+             <p class="manrope text-[45px] font-semibold ">Our Featured Products</p>
+        </div>
+        <div>
+            <p class="manrope text-[18px]  text-[#777777] font-medium mb-[35px] "> There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, <br> by injected humour, or randomised words which don't look even slightly believable. </p>
+        </div>
+        <div class="grid place-content-center md:grid-cols-2  lg:grid-cols-4  ">
+            <div class="bg-gradient-to-b from-[#f4f4f4] to-[#f4f4f400] w-[267px] h-[391px] rounded-sm">
 
-    <footer>
+                <div class="flex flex-col items-center p-5 ">
 
-    </footer>
+                <img src="images/tea-1.png" alt="" class="w-[135px] h-[212px]" >
+                <br>
+                <p class="manrope text-[20px] font-extrabold">Milk Tea</p>
+                <p class="manrope text-[15px]  text-[#777777] font-medium mb-[35px]">Creamer could be replaced <br> by fresh milk</p>
+
+                </div>
+              
+
+
+               
+               
+            </div>
+            <div class="bg-gradient-to-b from-[#f4f4f4] to-[#f4f4f400] w-[267px] h-[391px] rounded-sm">
+
+                <div class="flex flex-col items-center p-5 ">
+
+                <img src="images/tea-2.png" alt="" class="w-[135px] h-[212px]" >
+                <br>
+                <p class="manrope text-[20px] font-extrabold">Black Tea</p>
+                <p class="manrope text-[15px]  text-[#777777] font-medium mb-[35px]">Creamer could be replaced <br> by fresh milk</p>
+
+                </div>
+              
+
+
+               
+               
+            </div>
+            <div class="bg-gradient-to-b from-[#f4f4f4] to-[#f4f4f400] w-[267px] h-[391px] rounded-sm">
+
+                <div class="flex flex-col items-center p-5 ">
+
+                <img src="images/tea-3.png" alt="" class="w-[135px] h-[212px]" >
+                <br>
+                <p class="manrope text-[20px] font-extrabold">Lemon Tea</p>
+                <p class="manrope text-[15px]  text-[#777777] font-medium mb-[35px]">Creamer could be replaced <br> by fresh milk</p>
+
+                </div>
+              
+
+
+               
+               
+            </div>
+            <div class="bg-gradient-to-b from-[#f4f4f4] to-[#f4f4f400] w-[267px] h-[391px] rounded-sm">
+
+                <div class="flex flex-col items-center p-5 ">
+
+                <img src="images/tea-4.png" alt="" class="w-[135px] h-[212px]" >
+                <br>
+                <p class="manrope text-[20px] font-extrabold">Green Tea</p>
+                <p class="manrope text-[15px]  text-[#777777] font-medium mb-[35px]">Creamer could be replaced <br> by fresh milk</p>
+
+                </div>
+              
+
+
+               
+               
+            </div>
+        </div>
+         
+    </div>
+
+
+
+   
 </body>
 
 </html>
